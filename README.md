@@ -42,7 +42,7 @@ pip install snmpd
 Тестирование с клиентом Insomnia:
 
 
-<img height="825" width="680" alt="swagger_3" src="https://user-images.githubusercontent.com/72875986/170479955-794fa128-fbf6-49c4-b8b8-1e37be07be3a.jpg">
+<img height="825" width="660" alt="swagger_3" src="https://user-images.githubusercontent.com/72875986/170479955-794fa128-fbf6-49c4-b8b8-1e37be07be3a.jpg">
 
 Документация Swagger:
 
