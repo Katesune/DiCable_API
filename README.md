@@ -10,6 +10,8 @@ os.urandom(50)
 app.config['SECRET_KEY'] = ''
 
 
+Пакеты для установки:
+
 pip install aioflask
 
 pip install Flask
@@ -46,7 +48,7 @@ pip install snmpd
 Тестирование с клиентом Insomnia:
 
 
-<img height="625" width="470" alt="swagger_3" src="https://user-images.githubusercontent.com/72875986/170479955-794fa128-fbf6-49c4-b8b8-1e37be07be3a.jpg">
+<img height="625" width="465" alt="swagger_3" src="https://user-images.githubusercontent.com/72875986/170479955-794fa128-fbf6-49c4-b8b8-1e37be07be3a.jpg">
 
 Документация Swagger:
 
