@@ -2,9 +2,13 @@
 ВКР - API для приложения на базе Android
 
 Для работы в файле wsgi.py нужно сгеренировать секретный ключ и поставить в конфигурацию Flask
+
 import os
+
 os.urandom(50)
+
 app.config['SECRET_KEY'] = ''
+
 
 pip install aioflask
 
