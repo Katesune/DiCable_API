@@ -1,0 +1,29 @@
+:root {
+    --color-back: #EEF0F2;
+    --color-back-but: #6666AD;
+    --color-text: #1E1E24;
+    --color-text-but: #EEF0F2;
+    --color-back-card: #235ad1;
+    --color-switch-label: #1E1E24;
+    --color-back-switch-card: linear-gradient(#C6D2ED 116px, #F6F7F8 116px);
+    --color-back-port-card: #EEF0F2;
+    --color-back-diag-card: linear-gradient(#C6D2ED 123px, #F6F7F8 123px);
+    --color-back-login_form : #C6D2ED;
+    --color-back-admin-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-employee-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-action-butt: #C6D2ED;
+    --color-back-register-butt: #1E1E24;
+    --color-back-login_butt: #1E1E24;
+    --color-box-card: 0 2px 10px rgba(132, 106, 106, .3);
+    --color-row: 1px solid rgba(2, 4, 40, .3);
+    --color-port-label: #1E1E24;
+
+    --theme-icon: url("/static/pallete_white.png");
+    --docs-icon: url("/static/api_white.png");
+    --data-icon: url("/static/files_white.png");
+    --admin-icon: url("/static/admin_white.png");
+    --logout-icon: url("/static/logout_white.png");
+
+    --port-icon: url("/static/port_icon_fiol.png");
+    --port-icon-label: url("/static/port_icon_fiol.png");
+}

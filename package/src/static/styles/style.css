@@ -1,0 +1,388 @@
+    
+    /* Общие параметры */
+
+    /* 6666AD E7E6F7 E3D0D8 C6D2ED 1E1E24 FCFFFC */
+
+html, body {font-family: 'Mukta', sans-serif; background:var(--color-back); color:var(--color-text); margin:0; padding:0; font-size: 20px;}
+a {text-decoration: none;}
+
+table {border-collapse: collapse; border-spacing: 0px;}
+thead {border-spacing:0px; cellspacing: 0px;}
+
+.header {
+    display:flex; justify-content:space-between; align-items:center;}
+    
+.butts {
+    display:flex; flex-direction:column;}
+
+.theme_icon_back {content: var(--theme-icon);
+    width:22px; height:22px; 
+    vertical-align: middle; 
+    padding:10px;}
+
+.docs_icon_back {content: var(--docs-icon);}
+
+.data_icon_back {content: var(--data-icon);}
+
+.admin_icon_back {content: var(--admin-icon);}
+
+.logout_icon_back {content: var(--logout-icon);}
+
+.butt_theme {
+    /* width:180px; height:50px;  */
+    vertical-align: middle; 
+    display: flex; align-items:center; 
+    margin:8px 0px 8px 0px; 
+    padding:1px 1px 1px 1px;
+    text-align:right; 
+    background:var( --color-back-but); 
+    border:0px; border-radius:10px; }
+
+.butts_left {margin-left:20px; }
+.butts_right {margin-right:20px;}
+
+.butt_href {
+    /* width:180px; height:50px;  */
+    vertical-align: middle; 
+    display: flex; align-items:center; 
+    margin:8px 0px 8px 0px; 
+    padding:1px 15px 1px 6px;
+    text-align:left; 
+    background:var( --color-back-but); 
+    border:0px; border-radius:10px; }
+
+.icon {
+    width:22px; height:22px; 
+    vertical-align: middle; 
+    margin-left:10px;
+    padding-right:10px;}
+
+.href {
+    vertical-align: middle; 
+    padding-right:10px;
+    font-size: 26px; 
+    color:var(--color-text-but);}
+
+.href_logout {
+    vertical-align: middle; 
+    padding-left:10px;
+    font-size: 26px; 
+    color:var(--color-text-but);}
+
+.greet {
+    display:flex; justify-content: space-between; align-items:center;
+    margin: -30px 20px -50px 20px;
+    /* margin-top: -50px;
+    margin-bottom: -50px; */
+    font-size: 40px;}
+
+.butt_logout {
+    /* width:180px; height:50px;  */
+    display: flex; align-items:center; Justify-content: flex-end;
+    margin:8px 0px 8px 0px; 
+    padding:1px 6px 1px 15px;
+    text-align:right; 
+    background:var( --color-back-but);
+    border:0px; border-radius:10px;}
+
+.logout_icon {
+    width:24px; height:24px; 
+    vertical-align: middle;
+    margin-right:10px;
+    padding-left:10px; }
+
+.cards {
+    display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; 
+    align-content: center; 
+    margin:35px 10px 0px 10px;}
+
+.data {
+    /* padding:15px; */
+padding: 5px 15px 5px 15px;
+}
+
+.row {
+    text-align:left; 
+    border-bottom: var(--color-row);}
+
+.card {
+    text-align:center;
+    margin:10px;
+    padding:20px 40px 20px 40px;
+    border-radius:10px; box-shadow: var(--color-box-card);}
+
+.switch_label {
+    vertical-align: middle;
+    text-align:center;
+    font-size: 30px; 
+    color:var(--color-switch-label);
+    font-weight:600;
+    margin:0px;}
+    
+
+    /* Параметры для страницы с данными коммутатора */
+
+.switch_card {
+    display: inline-block; 
+    background: var( --color-back-switch-card);}
+
+.date_label {
+    font-size: 35px;
+    margin: 0px 30px -30px 30px;
+    text-align: left;}
+
+.ip_icon {
+    width:40px; height:40px; 
+    vertical-align: middle;}
+
+.ip_line {
+    text-align:center;
+    border-bottom: 1px solid rgba(132, 106, 106, .0);}
+
+.ip_line:hover {
+    border-bottom: 3px solid #020428 !important;}
+
+
+    /* Параметры для страницы с портами */
+
+.port_card {
+    background: var( --color-back-port-card);
+    height:100px;
+    display: flex; justify-content: center; align-items: center; align-content: center;}
+
+.port_line { 
+    display:flex; flex-direction:column; justify-content: center; align-items: center; 
+    align-content: center;}
+
+.port_icon {
+    width:60px; height:60px; 
+    vertical-align: middle;
+    content: var(--port-icon);}
+
+
+    /* Параметры для страницы с результатами диагностики */
+
+.diag_cards {
+    margin-top:-40px;
+}
+
+.diag_card {
+    display: inline-block; 
+    background: var(--color-back-diag-card);
+    border-radius:10px; }
+
+.diag_port_icon {
+    vertical-align: middle;
+    width:53px; height:53px; 
+    margin-right:10px;
+    content: var(--port-icon-label);
+}
+
+.date_icon {
+    width:40px; height:40px;}
+
+.diag_port_num {
+    vertical-align: middle;
+    font-size: 40px;
+    color:var(--color-port-label);}
+
+.diag_port_content {
+    display:flex; align-items:center; justify-content: flex-start;
+    vertical-align: middle;
+    margin:-25px 30px 0px 20px;
+    text-align: center;
+}
+
+.date_card_line {
+    text-align:center;
+    border-bottom: 1px solid rgba(132, 106, 106, .0);
+}
+
+
+
+    /* Параметры для страницы авторизации */
+
+.card_auth {
+    background:#cfebf3; 
+}
+
+.auth_message {
+    height: 50px; 
+    font-size: 25px;
+}
+
+.login_butt {
+    /* width:437px; */
+    margin:10px;
+    padding: 10px 106px 10px 106px;
+    color:#EEF0F2; 
+    background: var(--color-back-login_butt);
+    border:0px; border-radius:10px;}
+
+.user_icon {width:45px; height:45px;}
+
+.login_form {
+    display: flex; flex-direction: column; justify-content:center; align-items: center; align-content: center; 
+    padding:10px; 
+    background:var(--color-back-login_form);
+    border-radius:10px;}
+
+.form_item {
+    /* width:420px; height: 50px;  */
+    padding: 10px 80px 10px 80px;
+    margin:10px; 
+    padding-left:15px; 
+    border:0px; border-radius:10px;}
+
+.remember { 
+    /* width:437px; */
+    display: flex; align-items:center;
+    margin:5px;
+    padding: 0px 40px 0px 40px;}
+
+.remember_label {font-size: 18px; vertical-align: middle; }
+
+.choose {
+    vertical-align: middle; 
+    margin-right:15px;
+    transform:scale(1.3); 
+    opacity:0.9;}
+
+
+    /* Параметры для страницы админки */
+
+.register_card {
+    display: flex; justify-content:center; align-items: center; align-content: center; margin-left:20px;
+}
+
+.type_form {
+    /* width:440px; height: 50px;  */
+    padding: 10px 128px 10px 10px;
+    margin:10px;
+    border:0px; border-radius:10px;}
+
+/* .username {width:100px;}
+.email {width:180px;}
+.type {width:120px;} */
+.remove {font-weight:600; 
+    /* width:80px; */
+}
+
+.user_item_data {
+    margin:7px;
+    padding:10px;
+    font-size: 15px; font-weight:500;
+    background:#EEF0F2; 
+    color: var(--color-user-item);
+    border:0px; border-radius:10px;}
+
+.employees_cards {
+    display: flex; flex-direction:column; justify-content:center; align-content: center; 
+    margin: 10px}
+
+.admins_cards { 
+    display: flex;flex-direction:column; justify-content:center; align-content: center; 
+    margin: 20px;}
+
+.login_form_register {border-radius:10px; box-shadow:0 2px 10px rgba(132, 106, 106, .3);}
+
+.admin_card {
+    display: flex; flex-wrap: wrap; justify-content:space-between; align-items: center; 
+    padding:10px;
+    background:var(--color-back-admin-card);
+    border-radius:10px; box-shadow:0 2px 10px rgba(132, 106, 106, .3);}
+
+.employee_card {
+    display: flex; flex-wrap: wrap; justify-content:space-between; align-items: center; 
+    padding:10px;
+    background: var(--color-back-employee-card);
+    border-radius:10px; box-shadow:0 2px 10px rgba(132, 106, 106, .3);}
+
+.register_message {
+    height: 50px; 
+    font-size: 25px;
+    color: var( --color-message);
+}
+
+.form {
+    /* width:420px; height: 50px;  */
+    padding: 10px 40px 10px 40px;
+    margin:10px;
+    padding-left:15px;
+    border:0px; border-radius:10px;}
+
+.action_butt {
+    width:50px; height:50px; 
+    display: flex; justify-content:center; align-items: center; align-content: center;
+    margin:5px;
+    background:var(--color-back-action-butt);
+    border-radius:10px;}
+
+.action_icon {
+    width:40px; height:40px;
+    padding:0px;
+    color:rgba(205, 214, 219, 0); 
+    border:0px;}
+
+.register_case {
+    display: flex; flex-direction:column; flex-wrap: wrap; justify-content: center; align-items: center; 
+    align-content: center; 
+    margin:35px 20px 0px 20px;}
+
+.register_butt {
+    /* width:437px; */
+    margin:10px;
+    padding: 10px 96px 10px 96px;
+    color:#EEF0F2; 
+    background:var(--color-back-register-butt);
+    border:0px; border-radius:10px;}
+
+
+
+    
+/* :root {
+    --color-back: #EEF0F2;
+    --color-back-but: #cfebf3;
+    --color-text: #020428;
+    --color-text-but: #020428;
+    --color-back-card: #235ad1;
+    --color-switch-label: #020428;
+    --color-back-switch-card: linear-gradient(#cfebf3 116px, #F6F7F8 116px);
+} */
+
+
+/* :root {
+    --color-back: #EEF0F2;
+    --color-back-but: #cfebf3;
+    --color-text: #020428;
+    --color-text-but: #020428;
+    --color-back-card: #020428;
+    --color-switch-label: #020428;
+    --color-back-switch-card: linear-gradient(#C6D2ED 116px, #F6F7F8 116px);
+    --color-back-port-card: #EEF0F2;
+    --color-back-diag-card: linear-gradient(#C6D2ED 123px, #F6F7F8 123px);
+    --color-back-login_form : #C6D2ED;
+    --color-back-admin-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-employee-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-action-butt: #C6D2ED;
+    --color-back-register-butt: #1E1E24;
+    --color-back-login_butt: #1E1E24;
+} */
+
+/* :root {
+    --color-back: #EEF0F2;
+    --color-back-but: #6666AD;
+    --color-text: #1E1E24;
+    --color-text-but: #EEF0F2;
+    --color-back-card: #235ad1;
+    --color-switch-label: #1E1E24;
+    --color-back-switch-card: linear-gradient(#C6D2ED 116px, #F6F7F8 116px);
+    --color-back-port-card: #EEF0F2;
+    --color-back-diag-card: linear-gradient(#C6D2ED 123px, #F6F7F8 123px);
+    --color-back-login_form : #C6D2ED;
+    --color-back-admin-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-employee-card: linear-gradient(to right, #C6D2ED 73%, #1E1E24 27%);
+    --color-back-action-butt: #C6D2ED;
+    --color-back-register-butt: #1E1E24;
+    --color-back-login_butt: #1E1E24;
+} */
