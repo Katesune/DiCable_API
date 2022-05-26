@@ -1,10 +1,6 @@
 # DiCable_API
 ВКР - API для приложения на базе Android
 
-![Group 30](https://user-images.githubusercontent.com/72875986/170478205-973db91f-36f5-4439-8d6f-6c0d1c8c4505.png)
-
-Скриншоты API на мобильном телефоне
-
 Для работы в файле wsgi.py нужно сгеренировать секретный ключ и поставить в конфигурацию Flask
 import os
 os.urandom(50)
@@ -37,3 +33,7 @@ pip install Werkzeug
 pip install flask-endpoint
 
 pip install snmpd
+
+![Group 30](https://user-images.githubusercontent.com/72875986/170478205-973db91f-36f5-4439-8d6f-6c0d1c8c4505.png)
+
+Скриншоты API на мобильном телефоне
