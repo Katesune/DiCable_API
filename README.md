@@ -34,6 +34,11 @@ pip install flask-endpoint
 
 pip install snmpd
 
+Скриншоты API на мобильном телефоне:
 ![Group 30](https://user-images.githubusercontent.com/72875986/170478205-973db91f-36f5-4439-8d6f-6c0d1c8c4505.png)
 
-Скриншоты API на мобильном телефоне
+Тестирование с клиентом Insomnia:
+![ins](https://user-images.githubusercontent.com/72875986/170478723-6ac0188b-6b6a-4012-8b06-e58ecb439741.jpg)
+
+Документация Swagger
+<img width="350" alt="swagger_3" src="https://user-images.githubusercontent.com/72875986/170478873-fc2d30b6-a5ba-4cfc-9256-7a98761e3cca.png">
